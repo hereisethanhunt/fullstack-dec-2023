@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example Stylesheet</title>
+    <style>
+
+        /* important id class element
+                0     0   0      0 */
+
+        /* * {
+            color: green;
+        } */
+        /* 100 */
+        /* #my-id {
+            color: violet;
+        } */
+        /* 010 */
+        /* .my-class {
+            color: blue;
+        } */
+        /* 001 */
+        /* p {
+            color: red;
+        } */
+        /* .parent {
+            color: lightgoldenrodyellow;
+        } */
+
+        /* important id class element
+                0     0   0      0 */
+
+        /* 1 */
+        /* 011 */
+        /* p.my-class {
+            color: gray;
+        } */
+        /* 2 */
+        /* 012 */
+        /* div p.my-class {
+            color: pink
+        } */
+        /* 3 */
+        /* 101 */
+        /* p#my-id {
+            color: aqua;
+        } */
+        /* 4 */
+        /* 101 */
+        /* div #my-id {
+            color: rgb(225, 0, 255)
+        } */
+
+
+        /* 102 */
+        /* div p#my-id {
+            color : yellow
+        } */
+
+        /* 113 */
+        /* body div.parent p#my-id{
+            color: lightgreen
+        } */
+
+        /* 122 */
+        /* div.parent p#my-id.my-class {
+            color: purple;
+        } */
+
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <p class="my-class my-class2" id="my-id">This is a paragraph</p>
+    </div>
+</body>
+
+</html>
