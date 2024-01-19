@@ -1,0 +1,61 @@
+/* reset css */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+/* define website css */
+
+header {
+    height: 70vh;
+    background-image: url("./headerbg.jpg");
+    background-size:cover;
+    background-position:center;
+    /* parallax kind of effect */
+    background-attachment: fixed;
+}
+
+header {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.btn {
+    /* display: inline-block;
+    color: white;
+    background-color: #f63854;
+    padding: 16px 12px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border:1px solid#f63854;
+    transition: transform 0.3s; */
+}
+
+.btn_empty {
+    /* color: #f63854;
+    background-color: transparent; */
+}
+.btn:hover{
+    /* transform: scale(1.2); */
+}
+
+/* pseudo classes  -> represent a state of an element */
+/* link
+hover,
+active 
+vistited 
+*/
+/* style different states of an element */
